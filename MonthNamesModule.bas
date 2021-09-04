@@ -1,3 +1,11 @@
+'Insert this code in Workbook
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' Private Sub Workbook_Open()
+'     Application.OnKey "^t", "'togglePrecedents True'"
+'     Application.OnKey "+^t", "'togglePrecedents False'"
+'     Call initializeMonthNames
+' End Sub
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Attribute VB_Name = "MonthNamesModule"
 Public monthNames(11) As String
 Sub initializeMonthNames()
@@ -69,9 +77,4 @@ Sub togglePrecedents(ByVal showPrecedents As Boolean)
     Else
         Selection.showPrecedents Remove:=True
     End If
-End Sub
-Private Sub Workbook_Open()
-    Application.OnKey "^t", "'togglePrecedents True'"
-    Application.OnKey "+^t", "'togglePrecedents False'"
-    Call initializeMonthNames
 End Sub
