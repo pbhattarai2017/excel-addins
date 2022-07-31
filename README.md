@@ -12,7 +12,7 @@ Functions in **NepaliMonthName.xlam** <br>
   
 
 #### Installation
-1. Download <a href="./NepaliMonthName.xlam" target="_blank" download>NepaliMonthName.xlam</a>
+1. Download <a href="https://github.com/pbhattarai2017/excel-addins/raw/main/NepaliMonthNames.xlam" target="_blank" download>NepaliMonthName.xlam</a>
 2. Copy **NepaliMonthName.xlam** to *C:\Users\admin\AppData\Roaming\Microsoft\Excel\XLSTART*
 
 ---
