@@ -9,18 +9,18 @@
 Attribute VB_Name = "MonthNamesModule"
 Public monthNames(11) As String
 Sub initializeMonthNames()
-    monthNames(0) = "Baishakh"
-    monthNames(1) = "Jestha"
-    monthNames(2) = "Ashard"
-    monthNames(3) = "Shrawan"
-    monthNames(4) = "Bhadra"
-    monthNames(5) = "Asoj"
-    monthNames(6) = "Kartik"
-    monthNames(7) = "Mangsir"
-    monthNames(8) = "Poush"
-    monthNames(9) = "Magh"
-    monthNames(10) = "Falgun"
-    monthNames(11) = "Chaitra"
+    monthNames(0) = "10-Baishakh"
+    monthNames(1) = "11-Jestha"
+    monthNames(2) = "12-Ashard"
+    monthNames(3) = "01-Shrawan"
+    monthNames(4) = "02-Bhadra"
+    monthNames(5) = "03-Asoj"
+    monthNames(6) = "04-Kartik"
+    monthNames(7) = "05-Mangsir"
+    monthNames(8) = "06-Poush"
+    monthNames(9) = "07-Magh"
+    monthNames(10) = "08-Falgun"
+    monthNames(11) = "09-Chaitra"
 End Sub
 ' Returns Baishakh for 1, Jestha for 2, etc.
 Function NEPALIMONTH(ByVal miti As String) As String
