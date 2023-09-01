@@ -11,7 +11,7 @@ Public monthNames(11) As String
 Sub initializeMonthNames()
     monthNames(0) = "10-Baishakh"
     monthNames(1) = "11-Jestha"
-    monthNames(2) = "12-Ashard"
+    monthNames(2) = "12-Ashadh"
     monthNames(3) = "01-Shrawan"
     monthNames(4) = "02-Bhadra"
     monthNames(5) = "03-Asoj"
